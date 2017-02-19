@@ -44,7 +44,7 @@
 \RequirePackage{report-properties}
 \RequirePackage{lists}
 \RequirePackage{hyperlink-hyperref}
-\RequirePackage{fontawesome}
+%\RequirePackage{fontawesome} % Causes trouble on Arch
 
 % include custom listings language highlight packages
 \RequirePackage{language-basicstyle}
