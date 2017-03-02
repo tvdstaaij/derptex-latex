@@ -12,7 +12,7 @@
 \RequirePackage{geometry}       % Flexible and complete interface to document dimensions
 \RequirePackage{graphicx}       % Include graphics
 \RequirePackage{titling}        % Title page
-\RequirePackage{fancyhdr}       % Make header end footer
+%\RequirePackage{fancyhdr}       % Make header end footer
 \RequirePackage{tocloft}        % Control table of contents, figures, etc
 \RequirePackage{changepage}     % for the adjustwidth environment
 \RequirePackage{titlesec}       % set format per section type
@@ -298,17 +298,17 @@
 %%%%%%%%%%%%%%%%%%%%%%
 %% Header and Footer
 %%%%%%%%%%%%%%%%%%%%%%
-\pagestyle{fancy}                       % Set default style
-\fancyhf{}                              % Clear all header and footer fields
-\lhead{\bodyfont\printtitle}                   % Left head
-\rhead{\bodyfont\nouppercase\leftmark}    % Right head
-\lfoot{\bodyfont\printdate}                 % Left foot
-\rfoot{\bodyfont\thepage}                 % Right foot
+%\pagestyle{fancy}                       % Set default style
+%\fancyhf{}                              % Clear all header and footer fields
+%\lhead{\bodyfont\printtitle}                   % Left head
+%\rhead{\bodyfont\nouppercase\leftmark}    % Right head
+%\lfoot{\bodyfont\printdate}                 % Left foot
+%\rfoot{\bodyfont\thepage}                 % Right foot
 % Redefine the plain page style
-\fancypagestyle{plain}{ % Used at start of chapter
-    \fancyhf{} % clear all header and footer fields
-    \lhead{\bodyfont\printtitle}
-    \rhead{\bodyfont\nouppercase\leftmark}
-    \lfoot{\bodyfont\printdate}
-    \rfoot{\bodyfont\thepage}
-}
+%\fancypagestyle{plain}{ % Used at start of chapter
+    %\fancyhf{} % clear all header and footer fields
+    %\lhead{\bodyfont\printtitle}
+    %\rhead{\bodyfont\nouppercase\leftmark}
+    %\lfoot{\bodyfont\printdate}
+    %\rfoot{\bodyfont\thepage}
+%}
