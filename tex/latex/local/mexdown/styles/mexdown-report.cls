@@ -24,7 +24,7 @@
 \RequirePackage{xcolor}         % Color for links etc
 \RequirePackage{etoolbox}       % e-TEX tools for LATEX
 \RequirePackage{caption}        % Customizing captions in floating environments
-\RequirePackage{subcaption}     % Support for sub-captions
+%\RequirePackage{subcaption}     % Support for sub-captions
 \RequirePackage{chngcntr}       % Change the resetting of counters
 \RequirePackage{float}          % Improved interface for floating objects
 \RequirePackage{footmisc}       % A range of footnote options
@@ -34,12 +34,13 @@
 \RequirePackage{wrapfig}        % Produces figures which text can flow around
 \RequirePackage{listings}       % Typeset source code listings using LATEX
 \RequirePackage{parskip}        % Replace paragraph indents with vertical whitespace
-\RequirePackage{mwe}            % Packages and image files for minimal working example (MWE)
+%\RequirePackage{mwe}            % Packages and image files for minimal working example (MWE)
+\RequirePackage{svg}            % SVG rendering using inkscape and imagemagick
 
 % include custom packages
 \RequirePackage{tikz-er2}
 \RequirePackage{include-markdown}
-\RequirePackage{custom-fonts}
+%\RequirePackage{custom-fonts} % Broken with pdflatex
 \RequirePackage{unlisted-toc}
 \RequirePackage{report-properties}
 \RequirePackage{lists}
@@ -286,7 +287,7 @@
 \captionsetup[table]{format=tabcapfont}         % set defined caption
 \counterwithin{table}{chapter}
 % Sub Tables
-\renewcommand{\thesubtable}{\alph{subtable}}   % a, b etc.
+%\renewcommand{\thesubtable}{\alph{subtable}}   % a, b etc.
 % Figures
 \renewcommand{\thefigure}{\arabic{figure}}      % numbering:  1, 2 etc.
 \DeclareCaptionFormat{figcapfont}
@@ -294,7 +295,7 @@
 \captionsetup[figure]{format=figcapfont}        % set defined caption
 \counterwithin{figure}{chapter}
 % Sub figures
-\renewcommand{\thesubfigure}{\alph{subfigure}}  % a, b etc.
+%\renewcommand{\thesubfigure}{\alph{subfigure}}  % a, b etc.
 %%%%%%%%%%%%%%%%%%%%%%
 %% Header and Footer
 %%%%%%%%%%%%%%%%%%%%%%
