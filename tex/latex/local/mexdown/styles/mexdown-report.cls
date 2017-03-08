@@ -36,6 +36,7 @@
 \RequirePackage{parskip}        % Replace paragraph indents with vertical whitespace
 %\RequirePackage{mwe}            % Packages and image files for minimal working example (MWE)
 \RequirePackage{svg}            % SVG rendering using inkscape and imagemagick
+\RequirePackage{lmodern}
 
 % include custom packages
 \RequirePackage{tikz-er2}
