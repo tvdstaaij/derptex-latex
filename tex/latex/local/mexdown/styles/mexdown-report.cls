@@ -39,6 +39,8 @@
 \RequirePackage{lmodern}
 \RequirePackage{tabularx}
 \RequirePackage{calc}
+\RequirePackage{gensymb}
+\RequirePackage{amsmath}
 
 % include custom packages
 \RequirePackage{tikz-er2}
