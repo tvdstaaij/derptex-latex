@@ -37,6 +37,8 @@
 %\RequirePackage{mwe}            % Packages and image files for minimal working example (MWE)
 \RequirePackage{svg}            % SVG rendering using inkscape and imagemagick
 \RequirePackage{lmodern}
+\RequirePackage{tabularx}
+\RequirePackage{calc}
 
 % include custom packages
 \RequirePackage{tikz-er2}
