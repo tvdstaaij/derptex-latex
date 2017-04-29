@@ -41,6 +41,7 @@
 \RequirePackage{calc}
 \RequirePackage{gensymb}
 \RequirePackage{amsmath}
+\RequirePackage{pbox}
 
 % include custom packages
 \RequirePackage{tikz-er2}
