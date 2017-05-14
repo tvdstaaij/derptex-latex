@@ -42,6 +42,7 @@
 \RequirePackage{gensymb}
 \RequirePackage{amsmath}
 \RequirePackage{pbox}
+\RequirePackage{colortbl}
 
 % include custom packages
 \RequirePackage{tikz-er2}
