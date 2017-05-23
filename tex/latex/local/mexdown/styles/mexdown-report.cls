@@ -53,6 +53,8 @@
 \RequirePackage{lists}
 \RequirePackage{hyperlink-hyperref}
 %\RequirePackage{fontawesome} % Causes trouble on Arch
+\RequirePackage{protobuf/lang}
+\RequirePackage{protobuf/style}
 
 % include custom listings language highlight packages
 \RequirePackage{language-basicstyle}
