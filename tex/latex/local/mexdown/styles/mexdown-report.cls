@@ -51,7 +51,7 @@
 \RequirePackage{unlisted-toc}
 \RequirePackage{report-properties}
 \RequirePackage{lists}
-\RequirePackage{hyperlink-hyperref}
+%\RequirePackage{hyperlink-hyperref} % Breaks glossary links
 %\RequirePackage{fontawesome} % Causes trouble on Arch
 \RequirePackage{protobuf/lang}
 \RequirePackage{protobuf/style}
