@@ -99,7 +99,7 @@
         pdfstartpage  = 1,
         pdfauthor = {\printauthor},
         pdftitle = {\printtitle},
-        pdfcreator = {\LaTeX{} with 'mexdown-report' package},
+        pdfcreator = {\LaTeX{}},
         bookmarksdepth = 2 % to show sections and subsections
     }
 }
